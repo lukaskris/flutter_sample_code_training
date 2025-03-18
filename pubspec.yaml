@@ -1,0 +1,39 @@
+name: flutter_training_2025
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  dartz: ^0.10.1
+  dio: ^5.8.0+1
+  envied: ^1.1.1
+  flutter:
+    sdk: flutter
+  flutter_bounce: ^1.1.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_secure_storage: ^9.2.4
+  get: ^4.7.2
+  image_picker: ^1.1.2
+  pretty_dio_logger: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  envied_generator: ^1.1.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/sinarmas_logo.png"

@@ -1,0 +1,106 @@
+# Flutter project-specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+**/generated_plugin_registrant.dart
+
+# Flutter-generated images
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+*.config,dart
+
+# Android-specific
+**/android/**/gradle-wrapper.jar
+.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/android/**/*.apk
+**/android/app/release/
+*.jks
+# iOS-specific
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/.symlinks/
+**/ios/**/Pods/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/
+**/ios/**/*.ipa
+
+# macOS-specific
+**/macos/Flutter/ephemeral/
+**/macos/**/Pods/
+
+# Windows-specific
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated_plugin_registrant.*
+
+# Linux-specific
+**/linux/flutter/ephemeral/
+**/linux/flutter/generated_plugin_registrant.*
+
+# Coverage and symbols
+coverage/
+app.*.symbols
+*.freezed.dart
+*.g.dart
+
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IDE-related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/*
+.classpath
+.project
+.settings/
+
+# Exclusions for monorepo setup
+.cipd
+.gclient
+.gclient_entries
+.python-version
+.gclient_previous_custom_vars
+.gclient_previous_sync_commits
+
+# Dynamic files
+bin/internal/engine.version
+
+# Exceptions to rules
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+
+**/simbol/
+**/symbols/
+**/.cxx/
+lib/gen
+
+*.env
+env.g.dart
